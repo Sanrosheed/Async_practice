@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./images/astrobg.jpg);
+}
+.container {
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    height: 50px;
+    width: 400px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+
+button {
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 2px;
+    padding: 10px;
+    border-radius: 50px;
+    background: #312962;
+    color: #fff;
+}
+
+button:hover {
+    background: #000;
+    border: 2px solid #fff;
+}
